@@ -1,3 +1,6 @@
 #!/bin/bash
 
-echo " Builb by `hostname` "
+ for i in {1..3}
+ do 
+ echo "Hello from git, running on `hostname` server"
+ done
