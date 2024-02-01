@@ -4,3 +4,7 @@
  do 
  echo "Hello from git, running on `hostname` server"
  done
+
+ echo "disk utilization"
+ du -sh
+ 
