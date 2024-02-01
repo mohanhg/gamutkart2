@@ -1,0 +1,19 @@
+pipeline{
+  agent any
+
+  stages{
+    stage('Build'){
+      steps{
+        sh echo "Build new `hostname`"
+      }
+    }
+
+    stage('test'){
+      steps{
+        sh '''
+           echo "new file"
+           '''
+      }
+    }
+  }
+}
